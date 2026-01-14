@@ -17,3 +17,24 @@ body {
     border: 1px solid brown;
     padding: 10px;
 }
+img {
+    width: 100%;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tartalom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+}
+/* reszponzív oldal: olyan weblap, amelyik minden kijekzőn "jól néz ki", olvasható, jó látható */
+/* töréspontok segítségével media query */
+@media screen and (max-width: 600px) {
+    .tartalom {
+        grid-template-columns: 1fr;
+    }
+    .tarolo {
+        width: 100%;
+    }
+}
