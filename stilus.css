@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    /* Az elem szélességébe beleszámít a padding és a border is */
+}
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+.tarolo {
+    background-color: whitesmoke;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+.tarolo, .tartalom .fejlec, .lablec {
+    border: 1px solid brown;
+    padding: 10px;
+}
